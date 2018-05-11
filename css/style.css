@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #2d3038;
+
+}
+
+body {
+  background: #f4f4f4;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.navbar {
+  min-height: 33px !important;
+  margin-bottom: 0;
+  border-radius: 0;
+  position: fixed;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.navbar-nav>li>a, .navbar-brand {
+  padding-top: 6px !important;
+  padding-bottom: 0 !important;
+  height: 33px;
+}
+
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0.76);
+}
+
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ffbbbc;
+}
+
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #ffbbbc;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #ffbbbc;
+  background-color: #c0392b;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  color: #ffbbbc;
+  background-color: #c0392b;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #c0392b;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #c0392b;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-link:hover {
+  color: #ffbbbc;
+}
+
+/* section */
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-bottom: 25px;
+  background-color: #1D1D1B center/cover no-repeat;
+  color: #fff;
+}
+
+.section *:not(first-child) {
+  margin-top: 30px;
+}
+
+/* flex col */
+.flex-col {
+  display: flex;
+  justify-content: left;
+  align-content: left;
+  align-items: left;
+  text-align: center;
+}
+
+/* left banner */
+.leftBanner{
+  text-align: center ;
+  font-family: Trattatello, fantasy;
+  font-size: 40px;
+
+}
+
+.rightBanner{
+  font-family:
+  margin-right:11%;
+
+}
