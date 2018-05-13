@@ -11,12 +11,16 @@ body {
   font-weight: bold;
 }
 
+body > h1{
+  font-size: 10px;
+}
+
 .navbar {
   min-height: 33px !important;
   margin-bottom: 0;
-  border-radius: 0;
+  border-radius: 3px;
   position: fixed;
-  margin-top: 20px;
+  margin-top: 0;
   width: 100%;
   z-index: 2;
 }
@@ -35,27 +39,23 @@ body {
   color: #f4f4f4;
 }
 
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
-  color: #ffbbbc;
-  background-color: #c0392b;
-}
-
-.navbar-default .navbar-toggle {
-  border-color: #c0392b;
+.navbar-logo{
+  margin-top: 9px;
+  font-size: 30px;
+  padding-left: 0;
 }
 
 .li {
   border: none;
   outline: none;
-  padding: 10px 16px;
+  padding: 10px;
   background-color: rgba(0, 0, 0, 0.01);
   cursor: pointer;
   font-size: 18px;
 }
 
 .active, .li:hover {
-  background-color:  !important;
-  color: white !important;
+  color: #f4f4f4;
 }
 
 /* section */
@@ -92,18 +92,60 @@ body {
 /* left banner */
 
 .leftBanner {
-  margin: 5%;
-  text-align: center;
+  text-align: left;
   font-family: Trattatello, fantasy;
   font-size: 40px;
+  padding-top: 80px;
 }
 
-.rightBanner {
-  font-family: margin-right:11%;
+.rightBanner{
+  text-align: center;
+  padding-bottom: 200px;
 }
 
 .footer {
   background: #c0392b;
   text-align: center;
   letter-spacing: 1px;
+}
+
+.prog{
+  letter-spacing: 3px;
+  font-size: 53px;
+  animation: blinker 5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+img{
+  margin-left: 50px;
+  width: 70px;
+  height: 70px;
+}
+
+
+/* skills progress bar */
+.progress {
+  height: 95px;
+
+}
+.progress .skill {
+  font: normal 20px "Open Sans Web";
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+}
+.progress .skill .val {
+  float: right;
+  font-style: normal;
+
+}
+
+.progress-bar {
+  text-align: left;
+  transition-duration: 3s;
 }
