@@ -31,29 +31,8 @@ body {
   background-color: rgba(0, 0, 0, 0.76);
 }
 
-.navbar-default .navbar-brand {
-  color: #ecf0f1;
-}
-
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #ffbbbc;
-}
-
-.navbar-default .navbar-text {
-  color: #ecf0f1;
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: #ecf0f1;
-}
-
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  color: #ffbbbc;
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-  color: #ffbbbc;
-  background-color: #c0392b;
+  color: #f4f4f4;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
@@ -65,24 +44,18 @@ body {
   border-color: #c0392b;
 }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #c0392b;
+.li {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: rgba(0, 0, 0, 0.01);
+  cursor: pointer;
+  font-size: 18px;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ecf0f1;
-}
-
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: #ecf0f1;
-}
-
-.navbar-default .navbar-link {
-  color: #ecf0f1;
-}
-
-.navbar-default .navbar-link:hover {
-  color: #ffbbbc;
+.active, .li:hover {
+  background-color:  !important;
+  color: white !important;
 }
 
 /* section */
@@ -102,12 +75,12 @@ body {
   margin-top: 30px;
 }
 
-#header{
+#header {
   min-height: 100vh;
-
 }
 
 /* flex col */
+
 .flex-col {
   display: flex;
   justify-content: left;
@@ -117,21 +90,20 @@ body {
 }
 
 /* left banner */
-.leftBanner{
-  text-align: center ;
+
+.leftBanner {
+  margin: 5%;
+  text-align: center;
   font-family: Trattatello, fantasy;
   font-size: 40px;
-
 }
 
-.rightBanner{
-  font-family:
-  margin-right:11%;
+.rightBanner {
+  font-family: margin-right:11%;
 }
 
-.footer{
+.footer {
   background: #c0392b;
   text-align: center;
   letter-spacing: 1px;
-
 }
