@@ -25,10 +25,3 @@ for (var i = 0; i < btn.length; i++) {
 }
 
 //skills bar
-$(document).ready(function() {
-  $('.progress .progress-bar').css("width",
-    function() {
-      return $(this).attr("aria-valuenow") + "%";
-    }
-  )
-});

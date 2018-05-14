@@ -36,7 +36,8 @@ body > h1{
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  color: #f4f4f4;
+  color: #c0392b;
+
 }
 
 .navbar-logo{
@@ -55,7 +56,7 @@ body > h1{
 }
 
 .active, .li:hover {
-  color: #f4f4f4;
+  color: #c0392b;
 }
 
 /* section */
@@ -128,24 +129,7 @@ img{
 
 
 /* skills progress bar */
-.progress {
-  height: 95px;
-
-}
-.progress .skill {
-  font: normal 20px "Open Sans Web";
-  line-height: 35px;
-  padding: 0;
-  margin: 0 0 0 20px;
-  text-transform: uppercase;
-}
-.progress .skill .val {
-  float: right;
-  font-style: normal;
-
-}
-
-.progress-bar {
-  text-align: left;
-  transition-duration: 3s;
+.progress-bar{
+  background: #333333;
+  color: #ffffff;
 }
