@@ -24,4 +24,25 @@ for (var i = 0; i < btn.length; i++) {
   });
 }
 
-//skills bar
+//when u're on this secyiom, show link in menu
+$(document).ready(function(){
+    $('body').scrollspy({target: ".navbar", offset: 50});
+});
+
+
+// autoclose drop downmenu
+jQuery(function ($) {
+    var sections = $("body > section");
+
+    $(window).scroll(function () {
+        var fromTop = $(window).scrollTop();
+
+        sections.each(function () {
+            var $section = $(this);
+            var offset = $section.offset().top;
+            var height = $section.height();
+
+            $("nav a[href=#" + this.id + "]").toggleClass("current", fromTop >= offset && fromTop < offset + height);
+        });
+    }).scroll();
+});
