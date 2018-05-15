@@ -31,18 +31,6 @@ $(document).ready(function(){
 
 
 // autoclose drop downmenu
-jQuery(function ($) {
-    var sections = $("body > section");
-
-    $(window).scroll(function () {
-        var fromTop = $(window).scrollTop();
-
-        sections.each(function () {
-            var $section = $(this);
-            var offset = $section.offset().top;
-            var height = $section.height();
-
-            $("nav a[href=#" + this.id + "]").toggleClass("current", fromTop >= offset && fromTop < offset + height);
-        });
-    }).scroll();
+$('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
 });
